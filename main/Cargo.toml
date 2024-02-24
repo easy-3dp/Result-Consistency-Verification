@@ -1,0 +1,13 @@
+[package]
+name = "verification"
+version = "1.0.0"
+authors = ["shinhyen"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+p3d = { path = "../../p3d - fixparam", default-features = false }
+rock-obj = { path = "../rockObj", default-features = false }
+rayon = "1.5"
+rand = "0.8.3"

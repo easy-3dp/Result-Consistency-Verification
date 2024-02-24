@@ -1,0 +1,10 @@
+[package]
+name = "rock-obj"
+version = "1.0.0"
+authors = ["shinhyen"]
+edition = "2018"
+
+[dependencies]
+cgmath = "0.18"
+rand = "0.8.5"
+string-builder = "0.2.0"
